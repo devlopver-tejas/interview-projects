@@ -1,0 +1,9 @@
+.app{
+    background-color: aliceblue;
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
