@@ -1,6 +1,6 @@
 import React from 'react'
 import "./App.css"
-import Signal from './Signal'
+import Signal from './signal/Signal'
 
 const App = () => {
   return (

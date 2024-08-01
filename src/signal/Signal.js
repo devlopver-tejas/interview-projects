@@ -17,9 +17,14 @@ let config = {
 };
 
 const Signal = () => {
-  let initialColor = "green";
-  const [currentColor, setCurrentColor] = useState(initialColor);
 
+
+  let initialColor = "green";
+
+  //approch1
+  const [currentColor, setCurrentColor] = useState(initialColor)
+
+  //  //approch2
   const [currt, setcurrt] = useState("green");
 
   useEffect(() => {
